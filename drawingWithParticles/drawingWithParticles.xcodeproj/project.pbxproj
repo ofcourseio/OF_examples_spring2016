@@ -9,6 +9,43 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>C4290E0AA046AB2952A4F506</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>particle.h</string>
+				<key>path</key>
+				<string>src/particle.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>72C9C04E23596576DC20D815</key>
+			<dict>
+				<key>fileRef</key>
+				<string>09150BF591FDDF0ECA6D1D30</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>09150BF591FDDF0ECA6D1D30</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>particle.cpp</string>
+				<key>path</key>
+				<string>src/particle.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>6948EE371B920CB800B5AC1A</key>
 			<dict>
 				<key>children</key>
@@ -291,6 +328,7 @@
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
+					<string>72C9C04E23596576DC20D815</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -330,7 +368,7 @@
 				<key>isa</key>
 				<string>PBXNativeTarget</string>
 				<key>name</key>
-				<string>vectorExampleAddRemove</string>
+				<string>drawingWithParticles</string>
 				<key>productName</key>
 				<string>myOFApp</string>
 				<key>productReference</key>
@@ -347,7 +385,7 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>path</key>
-				<string>vectorExampleAddRemoveDebug.app</string>
+				<string>drawingWithParticlesDebug.app</string>
 				<key>sourceTree</key>
 				<string>BUILT_PRODUCTS_DIR</string>
 			</dict>
@@ -468,6 +506,8 @@
 					<string>E4B69E1D0A3A1BDC003C02F2</string>
 					<string>E4B69E1E0A3A1BDC003C02F2</string>
 					<string>E4B69E1F0A3A1BDC003C02F2</string>
+					<string>09150BF591FDDF0ECA6D1D30</string>
+					<string>C4290E0AA046AB2952A4F506</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>

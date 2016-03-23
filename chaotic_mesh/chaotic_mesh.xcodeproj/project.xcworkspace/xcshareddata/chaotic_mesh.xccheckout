@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5776FD62-9BB8-4D72-B110-1DC4CA98FA84</string>
+	<key>IDESourceControlProjectName</key>
+	<string>chaotic_mesh</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>82949DB64B4D7F1B5AC48699DBFBE626C89B5748</key>
+		<string>https://github.com/ofcourseio/OFCOURSE-SHANGHAI.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>chaotic_mesh/chaotic_mesh.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>82949DB64B4D7F1B5AC48699DBFBE626C89B5748</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ofcourseio/OFCOURSE-SHANGHAI.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>82949DB64B4D7F1B5AC48699DBFBE626C89B5748</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>82949DB64B4D7F1B5AC48699DBFBE626C89B5748</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OFCOURSE-SHANGHAI</string>
+		</dict>
+	</array>
+</dict>
+</plist>
