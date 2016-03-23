@@ -5,22 +5,18 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5776FD62-9BB8-4D72-B110-1DC4CA98FA84</string>
+	<string>3E327A0E-23E3-4510-8662-8DEE62CA7A9B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>chaotic_mesh</string>
+	<string>DrawingShapes2</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>82949DB64B4D7F1B5AC48699DBFBE626C89B5748</key>
-		<string>https://github.com/ofcourseio/OFCOURSE-SHANGHAI.git</string>
 		<key>F90B9DD754070A471A5218FAD1F49AFC49FA95E8</key>
 		<string>https://github.com/ofcourseio/OF_examples_spring2016.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>chaotic_mesh/chaotic_mesh.xcodeproj</string>
+	<string>DrawingShapes2/DrawingShapes2.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>82949DB64B4D7F1B5AC48699DBFBE626C89B5748</key>
-		<string>../../../../OFCOURSE-SHANGHAI</string>
 		<key>F90B9DD754070A471A5218FAD1F49AFC49FA95E8</key>
 		<string>../../..</string>
 	</dict>
@@ -32,14 +28,6 @@
 	<string>F90B9DD754070A471A5218FAD1F49AFC49FA95E8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>82949DB64B4D7F1B5AC48699DBFBE626C89B5748</string>
-			<key>IDESourceControlWCCName</key>
-			<string>OFCOURSE-SHANGHAI</string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

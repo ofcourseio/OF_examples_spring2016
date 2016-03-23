@@ -30,6 +30,7 @@ void ofApp::draw(){
    
     ofEnableDepthTest();
     
+
     ofSetCylinderResolution(ofMap(ofGetMouseX(), 0,ofGetWidth(), 1, 100),ofMap(ofGetMouseY(), 0,ofGetHeight(), 1, 100));
 
     ofFill();
@@ -38,9 +39,14 @@ void ofApp::draw(){
     
     ofSetColor(0);
     ofNoFill();
-    ofSetLineWidth(8);
+    ofSetLineWidth(2);
     ofDrawCylinder(200, 200, 0, 100, 300);
     ofDrawRectRounded(5675, 789, 789, 789, 789);
+    ofSetConeResolution(4,0);
+    
+    ofDrawCone(0, 0, 0, 100, 200);
+    ofDrawCone(0, 200, 0, 100, -200);
+    
     cam.end();
     
 
