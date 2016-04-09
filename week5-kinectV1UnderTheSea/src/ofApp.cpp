@@ -10,17 +10,16 @@ void ofApp::setup(){
     background.load("underthesea.jpg");
     ofBackground(30, 30, 30);
     //---KINECT SETUP
-//    kinectv1.setRegistration(true);
-//    kinectv1.init();
+    kinectv1.setRegistration(true);
+    kinectv1.init();
     
-    if(kinectv1.getNumDevices()==0){
-        cout << "NO KINECTS" << endl;
-    }else{
-        cout << "KINECT FOUND: " << kinectv1.getDeviceList()[0].serial << endl;
-    }
+//    if(kinectv1.getNumDevices()==0){
+//        cout << "NO KINECTS" << endl;
+//    }else{
+//        cout << "KINECT FOUND: " << kinectv1.getDeviceList()[0].serial << endl;
+//    }
     kinectv1.open();
-    
-//    kinectv1.setCameraTiltAngle(0);
+    kinectv1.setCameraTiltAngle(0);
     
     //---GUI SETUP
     panel.setup();
@@ -48,16 +47,16 @@ void ofApp::update(){
         //ofPixels --> 8 bit 0 - 255 // data type char
         //ofShortPixels -> 16bit 0 - 65550 // dataType short int
         //ofFloatPixels -> 32bit // floats
-        foreground.setFromPixels(kinectv1.getRgbPixels());
+  //      foreground.setFromPixels(kinectv1.getRgbPixels());
 
         
-       //*
-        ofFloatPixels depth =kinectv1.getRawDepthPixels();
-//        ofShortPixels depth =kinectv1.getRawDepthPixels();//unprocessed pixels// each pixel is the distance from the camera to the object in milimeters.
+       
+       // ofFloatPixels depth =kinectv1.getRawDepthPixels();
+        ofShortPixels depth =kinectv1.getRawDepthPixels();//unprocessed pixels// each pixel is the distance from the camera to the object in milimeters.
         
         thresh_pix.allocate(depth.getWidth(), depth.getHeight(), 1);//set size of memory to use.
-///        foreground.allocate(depth.getWidth(), depth.getHeight(), OF_IMAGE_COLOR_ALPHA);
-        foreground.resize(depth.getWidth(), depth.getHeight());
+        foreground.allocate(depth.getWidth(), depth.getHeight(), OF_IMAGE_COLOR_ALPHA);
+//        foreground.resize(depth.getWidth(), depth.getHeight());
         foreground.setImageType(OF_IMAGE_COLOR_ALPHA);
         for (int i =0; i < thresh_pix.getHeight(); i++) {
         for (int j  =0; j < thresh_pix.getWidth(); j++) {
@@ -65,10 +64,10 @@ void ofApp::update(){
             if (depth.getData()[index] > minDistance &&
                 depth.getData()[index] < maxDistance) {
                 thresh_pix.getData()[index] = 255;
-                //foreground.setColor(j, i, kinectv1.getRgbPixels().getColor(j, i));
+                foreground.setColor(j, i, kinectv1.getColorAt(j, i));
             }else{
                 foreground.getPixels()[index*4+3] = 0;
-//                foreground.setColor(j, i,ofColor(0,0));
+            //    foreground.setColor(j, i,ofColor(0,0));
                 thresh_pix.getData()[index] = 0;
             }
         }
@@ -77,7 +76,7 @@ void ofApp::update(){
         foreground.update();
         }else{
         drawTexture.loadData(thresh_pix);//*/
-        rgbTexture.loadData(kinectv1.getRgbPixels());
+        rgbTexture.loadData(kinectv1.getPixels());
         }
     }
 }
