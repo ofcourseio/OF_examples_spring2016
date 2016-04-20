@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BDEB3C32-30FE-4392-B47C-A80084298216</string>
+	<key>IDESourceControlProjectName</key>
+	<string>week7_loadShaderToy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B7CCA6A8C889ED4C803FBF307564FD139754E943</key>
+		<string>https://github.com/roymacdonald/ofxFX.git</string>
+		<key>F90B9DD754070A471A5218FAD1F49AFC49FA95E8</key>
+		<string>https://github.com/ofcourseio/OF_examples_spring2016.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>week7_loadShaderToy/week7_loadShaderToy.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B7CCA6A8C889ED4C803FBF307564FD139754E943</key>
+		<string>../../../../../addons/ofxFX</string>
+		<key>F90B9DD754070A471A5218FAD1F49AFC49FA95E8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ofcourseio/OF_examples_spring2016.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F90B9DD754070A471A5218FAD1F49AFC49FA95E8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F90B9DD754070A471A5218FAD1F49AFC49FA95E8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofCourseExamples</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B7CCA6A8C889ED4C803FBF307564FD139754E943</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxFX</string>
+		</dict>
+	</array>
+</dict>
+</plist>
